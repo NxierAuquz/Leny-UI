@@ -11,8 +11,8 @@ else
 end
 
 local Library = {
-	sizeX = 800,
-	sizeY = 600,
+	sizeX = 720,
+	sizeY = 550,
 	tabSizeX = 200,
 
 	dragging = false,
@@ -1571,8 +1571,8 @@ function Library:createManager(options: table)
 		end
 	end
 
-	local UI = Library:createTab({text = "UI", icon = options.icon})
-	local Page = UI:createSubTab({text = "Page 1"})
+	local UI = Library:createTab({text = "Configuration", icon = options.icon})
+	local Page = UI:createSubTab({text = "Sec1"})
 	local UI = Page:createSection({text = "UI"})
 	local SaveManager = Page:createSection({position = "Right", text = "Save Manager"})
 	local ThemeManager = Page:createSection({position = "Right", text = "Theme Manager"})
