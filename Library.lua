@@ -1572,7 +1572,7 @@ function Library:createManager(options: table)
 	end
 
 	local UI = Library:createTab({text = "Configuration", icon = options.icon})
-	local Page = UI:createSubTab({text = "Sec1"})
+	local Page = UI:createSubTab({text = "Sec"})
 	local UI = Page:createSection({text = "UI"})
 	local SaveManager = Page:createSection({position = "Right", text = "Save Manager"})
 	local ThemeManager = Page:createSection({position = "Right", text = "Theme Manager"})
